@@ -1,0 +1,10 @@
+# Environment used in the paper (Python 3.8.13, CUDA 11.3, RTX 3090)
+torch==1.10.0          # CUDA 11.3 build: pip install torch==1.10.0+cu113 torchvision==0.11.1+cu113 -f https://download.pytorch.org/whl/torch_stable.html
+torchvision==0.11.1
+pytorch-lightning==1.5.9
+torchmetrics==0.11.4
+fvcore==0.1.5.post20221221
+PyYAML==6.0
+Pillow==9.5.0
+numpy==1.24.3
+tensorboard==2.12.2
