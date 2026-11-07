@@ -1,0 +1,14 @@
+{
+  "title": "DaVSAIT: Unpaired Image Translation Based on Vector Symbolic Architecture and Dual Attention Mechanism (code)",
+  "upload_type": "software",
+  "description": "Official PyTorch implementation of DaVSAIT, an unpaired image translation model that integrates a dual attention mechanism (multi-spectral channel attention and self-attention) into VSA-based adversarial learning. Includes training/testing code, configuration files and scripts for GTA→Cityscapes, Google Maps↔Aerial Photo, Cityscapes→CBCL, edges→shoes and grayscale→color flower translation.",
+  "creators": [
+    {"name": "Chen, Hongqian", "affiliation": "School of Computer and Artificial Intelligence, Beijing Technology and Business University"},
+    {"name": "Xiong, Jiahui", "affiliation": "School of Computer and Artificial Intelligence, Beijing Technology and Business University"},
+    {"name": "Wang, Xiaochuan", "affiliation": "School of Computer and Artificial Intelligence, Beijing Technology and Business University"},
+    {"name": "Li, Hui", "affiliation": "Management College, Beijing Union University"}
+  ],
+  "keywords": ["image translation", "dual attention mechanism", "vector symbolic architecture", "hyper-vector computing", "unpaired image-to-image translation"],
+  "license": "cc-by-nc-4.0",
+  "notes": "Supported by the National Natural Science Foundation of China (No. 62307001). Built on VSAIT (Theiss et al., ECCV 2022)."
+}
