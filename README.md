@@ -85,7 +85,7 @@ DaVSAIT/
 Tested with Python 3.8.13, PyTorch 1.10.0 (CUDA 11.3), PyTorch-Lightning 1.5.9 on a single NVIDIA RTX 3090.
 
 ```bash
-git clone https://github.com/<your-username>/DaVSAIT.git
+git clone https://github.com/<chenhong-hu>/DaVSAIT.git
 cd DaVSAIT
 conda create -n davsait python=3.8 -y
 conda activate davsait
@@ -124,16 +124,15 @@ Download from the [Releases](../../releases) page and put them in `./pretrained/
 | Task | File |
 |---|---|
 | GTA → Cityscapes | `davsait_gta2cityscapes.ckpt` |
-| Google Maps → Aerial Photo | `davsait_maps2aerial.ckpt` |
-| Aerial Photo → Google Maps | `davsait_aerial2maps.ckpt` |
+| Google Maps ↔ Aerial Photo |`davsait_maps.ckpt`, `davsait_aerial.ckpt` |
 | Cityscapes → CBCL | `davsait_cityscapes2cbcl.ckpt` |
 
 ## Evaluation
 
 ```bash
 bash scripts/test_gta2cityscapes.sh
-bash scripts/test_maps2aerial.sh
-bash scripts/test_aerial2maps.sh
+bash scripts/test_maps2aerial.sh <path/to/checkpoint.ckpt>
+bash scripts/test_aerial2maps.sh <path/to/checkpoint.ckpt>
 bash scripts/test_cityscapes2cbcl.sh
 ```
 
